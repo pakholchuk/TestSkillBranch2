@@ -30,13 +30,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
-import android.view.View;
+
 import android.widget.Toast;
 
 import com.pakholchuk.testskillbranch2.adapter.ItemViewClickListener;
 import com.pakholchuk.testskillbranch2.adapter.PostAdapter;
 import com.pakholchuk.testskillbranch2.databinding.ActivityMainBinding;
-import com.pakholchuk.testskillbranch2.helper.DBHelper;
+
 import com.pakholchuk.testskillbranch2.network.NetworkService;
 import com.pakholchuk.testskillbranch2.pojo.Post;
 
