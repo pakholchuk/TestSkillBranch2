@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDetailsActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:subtitle="@string/default_item"
+        android:background="@color/colorPrimary"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_user_post_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:textSize="24sp"
+            tools:text="Post ID: 1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/tv_user_name"
+            tools:text="Mark Walberg"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/tv_user_name"
+            android:id="@+id/tv_user_username"
+            tools:text="BOOMER"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/tv_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_user_username"
+            android:layout_margin="4dp"
+            android:textSize="16sp"
+            tools:text="fds!@fdsdsf.cods" />
+        <TextView
+            android:id="@+id/tv_user_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_user_email"
+            android:layout_margin="4dp"
+            android:textSize="16sp"
+            tools:text="dsdsf.cods" />
+        <TextView
+            android:id="@+id/tv_user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_user_website"
+            android:layout_margin="4dp"
+            android:textSize="16sp"
+            tools:text="234-234-24" />
+        <TextView
+            android:id="@+id/tv_user_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_user_phone"
+            android:layout_margin="4dp"
+            android:textSize="16sp"
+            tools:text="Bew Dork" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_save_user"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/save_user"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
